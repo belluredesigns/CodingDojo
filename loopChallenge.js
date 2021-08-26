@@ -23,3 +23,29 @@ for (var i = 100; i >= 3; i--) {
 for (var i = 4; i >= -4; i = i - 1.5) {
     console.log(i);
 }
+
+//Sigma
+var sumNum = 0;
+function sumOfNum(num) {
+    for (var i = 1; i <= num; i++) {
+        sumNum += i;
+        // console.log(sumNum);
+    }
+    return sumNum;
+}
+
+var sumResult = sumOfNum(100);
+console.log("Sum result is :" + sumResult);
+
+//Factorial
+var product = 1;
+function factorial(num) {
+    for (var i = 1; i <= num; i++) {
+        product *= i;
+    }
+    return product;
+
+}
+
+var factResult = factorial(12);
+console.log("Factorial is : " + factResult);
