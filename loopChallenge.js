@@ -49,3 +49,5 @@ function factorial(num) {
 
 var factResult = factorial(12);
 console.log("Factorial is : " + factResult);
+
+}
